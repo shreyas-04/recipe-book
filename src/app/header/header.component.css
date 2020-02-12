@@ -1,0 +1,47 @@
+a {
+    cursor: pointer;
+}
+
+.nav-button {
+    display: none;
+    transform: translate(-20%, 10%);
+    margin-right: 0;
+    float: right;
+}
+
+.bars {
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    margin: 0;
+}
+
+.bar1 {
+    border-bottom: 3px solid black;
+    width: 2.5rem;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.bar2 {
+    border-bottom: 3px solid black;
+    width: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.bar3 {
+    border-bottom: 3px solid black;
+    width: 2.5rem;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+@media screen and (max-width: 770px) {
+    .nav-button {
+        display: block;
+    }
+}

@@ -1,0 +1,27 @@
+.auth {
+    background-image: url('../../assets/image/a.jpg');
+    padding: 15%;
+}
+
+.col-xs-12,
+.col-md-6 {
+    background-color: white;
+    padding: 2rem;
+}
+
+.spinner {
+    top: 5%;
+    transform: translateX(45%);
+}
+
+@media screen and (max-width: 992px) {
+    .auth {
+        height: 90vh;
+    }
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: darkblue;
+}

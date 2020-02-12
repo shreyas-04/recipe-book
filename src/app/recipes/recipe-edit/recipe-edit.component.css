@@ -1,0 +1,21 @@
+button {
+    margin: 2px;
+}
+
+.righty {
+    float: right;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+
+:host {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.row {
+    margin-bottom: 1rem;
+}

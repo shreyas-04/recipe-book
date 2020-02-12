@@ -1,0 +1,8 @@
+body {
+    background-image: linear-gradient(to right bottom, rgba(218, 117, 22, 0.9), rgba(212, 199, 19, 0.99));
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* overflow: hidden; */
+}
